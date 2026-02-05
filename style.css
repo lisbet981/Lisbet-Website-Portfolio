@@ -1,0 +1,29 @@
+body{
+    background-image:url(MainBackground.jpg);
+    background-position: center;
+}
+.navbar{
+font-family: Playfair Display;
+font-size: 20px;
+font-weight: 400;
+text-align: end;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 5px;
+}
+.Portfolio{
+font-family:'Aboreto';
+font-size: 85px;
+font-weight: 400;
+text-align: center; 
+padding-bottom: 0%;
+}
+.Name{
+font-family: 'Parisienne';
+font-size: 45px;
+font-weight: 400;
+text-align: center;
+padding-top: 0%;
+}
