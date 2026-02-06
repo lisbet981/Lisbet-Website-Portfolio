@@ -1,0 +1,30 @@
+body{
+    background-image: url(AboutBG.jpg);
+        background-position: center;
+}
+.navbar{
+font-family: Playfair Display;
+font-size: 20px;
+font-weight: 400;
+text-align: end;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 9px 9px;
+}
+.Name{
+font-family: 'Parisienne';
+font-size: 55px;
+font-weight: 400;
+padding-left: 7%;
+padding-top: 7%;
+}
+
+.text{
+    padding-left: 7%;
+    padding-top: 0%;
+    font-size: 35px;
+    font-family: 'Alumni Sans Pinstripe';
+    font-weight: 600;
+}
