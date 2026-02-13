@@ -1,3 +1,16 @@
+.navbar{
+font-family: Playfair Display;
+font-size: 20px;
+font-weight: 400;
+text-align: end;
+}
+.navbar a{
+    color: black;
+    padding: 9px 9px;
+}
+.Project{
+   text-decoration: underline aliceblue;
+}
 
 .parallax {
   /* The image used */
@@ -11,15 +24,20 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .tempoText{
     background-color: #004900;
-    height:700px;
+    height:500px;
+    width: 100%;
     font-size:25px;
-   
+    display: inline-block;
 }
 p.text{
-     border-style: solid;
-    border: 2%;
-    border-color: #f6dfff;
-     text-align: center;padding: 2%;
+  border-style: solid;
+  border: 2%;
+  border-color: #f6dfff;
+  text-align: center;
+  padding: 2%;
+  width: 50%;
 }
+

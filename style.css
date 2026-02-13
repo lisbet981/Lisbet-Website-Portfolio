@@ -2,7 +2,12 @@ body{
     background-image:url(MainBackground.jpg);
  background-repeat:no-repeat ;
     background-size: auto;
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+
 }
+
 .navbar{
 font-family: Playfair Display;
 font-size: 20px;

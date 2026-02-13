@@ -1,6 +1,9 @@
 body{
     background-image: url(AboutBG.jpg);
         background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
 }
 .navbar{
 font-family: Playfair Display;
@@ -9,10 +12,14 @@ font-weight: 400;
 text-align: end;
 }
 .navbar a{
-    text-decoration: none;
     color: black;
     padding: 9px 9px;
 }
+
+.about{
+   text-decoration: underline aliceblue;
+}
+
 .Name{
 font-family: 'Parisienne';
 font-size: 55px;
@@ -22,9 +29,27 @@ padding-top: 7%;
 }
 
 .text{
-    padding-left: 7%;
-    padding-top: 0%;
+    position: absolute;
+    left: auto;
+  width: 110vh;
+  height: 120px;
     font-size: 35px;
     font-family: 'Alumni Sans Pinstripe';
     font-weight: 600;
+}
+
+.oval {
+  position: absolute;
+  right: 150px;
+  width: 40vh;
+  height: 55vh;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.oval img{
+ right: 150px;
+ width: 40vh;
+ height: 55vh;
+ border-radius: 50%;
 }
