@@ -34,22 +34,28 @@ padding-top: 7%;
   width: 110vh;
   height: 120px;
     font-size: 35px;
-    font-family: 'Alumni Sans Pinstripe';
+   font-family: 'Alumni Sans Pinstripe';
     font-weight: 600;
+}
+
+.SecondText{
+    font-family: 'Alumni Sans Pinstripe';
+   font-size: 34px;
+   font-weight: 600;
 }
 
 .oval {
   position: absolute;
   right: 150px;
-  width: 40vh;
-  height: 55vh;
+  width: 43vh;
+  height: 57vh;
   border: 3px solid white;
   border-radius: 50%;
 }
 
 .oval img{
  right: 150px;
- width: 40vh;
- height: 55vh;
+ width: 43vh;
+ height: 57vh;
  border-radius: 50%;
 }
