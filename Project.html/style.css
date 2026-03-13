@@ -9,13 +9,12 @@ text-align: end;
     padding: 9px 9px;
 }
 .Project{
-   text-decoration: underline aliceblue;
+   text-decoration: underline rgb(255, 240, 240);
 }
 
 .parallax {
   /* The image used */
-  background-image: url("TempoBackground.png");
-
+  background-image: url(LargeMap.jpg);
   /* Set a specific height */
   min-height: 500px; 
   /* Create the parallax scrolling effect */
@@ -26,18 +25,83 @@ text-align: end;
 }
 
 .tempoText{
-    background-color: #004900;
-    height:500px;
+    background-color: #eea6c2c9;
+    height:300px;
     width: 100%;
-    font-size:25px;
-    display: inline-block;
+    display: flex; 
+    justify-content: center; /* Centers horizontally */
+    align-items: center;   
 }
+
+.RockPaper{
+background-image: url(RockPaper.jpg);
+/* Set a specific height */
+  min-height: 400px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.simpleQuiz{
+  background-image: url(SimpleQuiz.jpg);
+  /* Set a specific height */
+ min-height: 400px; 
+ background-attachment: fixed;
+ background-position: center;
+  background-repeat: no-repeat;
+ background-size: cover;
+ }
+
+
+.calculator{
+background-image: url(Calculator.jpg);
+/* Set a specific height */
+  min-height: 400px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 p.text{
-  border-style: solid;
-  border: 2%;
-  border-color: #f6dfff;
+  background-color: #AD5691;
+  color: #f6dfff;
+  font-size:22px ;
+  border: 2px solid #f6dfff;
   text-align: center;
-  padding: 2%;
-  width: 50%;
+  padding: 1%;
+  width: 54%;
+  margin: 0 auto;
+}
+
+p.SimpleQuiz{
+  color: #f6dfff;
+  font-size:22px ;
+  border: 2px solid #f6dfff;
+  text-align: center;
+  padding: 1%;
+  width: 54%;
+  margin: 0 auto;
+}
+
+p.rockpaper{
+  color: #f6dfff;
+  font-size:22px ;
+  border: 2px solid #f6dfff;
+  text-align: center;
+  padding: 1%;
+  width: 54%;
+  margin: 0 auto;
+}
+
+p.Calculatortext{
+  color: #f6dfff;
+  font-size:22px ;
+  border: 2px solid #f6dfff;
+  text-align: center;
+  padding: 1%;
+  width: 54%;
+  margin: 0 auto;
 }
 
