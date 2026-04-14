@@ -1,10 +1,9 @@
 body{
-    background-image:url(MainBackground.jpg);
- background-repeat:no-repeat ;
-    background-size: auto;
-    margin: 0%;
-    padding: 0%;
-    height: auto;
+    background-image:url(MainBackground1.jpg);
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 98.5vh;
 
 }
 

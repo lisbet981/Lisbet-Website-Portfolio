@@ -1,27 +1,49 @@
+::-webkit-scrollbar {
+  width: 16px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #77506a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3b2633; 
+}
 .navbar{
 font-family: Playfair Display;
 font-size: 20px;
 font-weight: 400;
 text-align: end;
-position: absolute;
+background-color:rgb(247, 220, 230);
 }
 .navbar a{
+    text-decoration: none;
     color: black;
     padding: 9px 9px;
 }
-.Project{
-   text-decoration: underline rgb(255, 240, 240);
+
+mark {
+ background: rgba(250, 250, 250, 0.582);
+ color:black;
+ border-radius: 3px;
 }
 
 /* Calculator Image */
 .calculator{
 background-image: url(Calculator.jpg);
 /* Set a specific height */
-  min-height: 400px; 
+  min-height: 800px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 0%;
 }
 
 /* Tempo Image */
@@ -29,7 +51,7 @@ background-image: url(Calculator.jpg);
   /* The image used */
   background-image: url(LargeMap.jpg);
   /* Set a specific height */
-  min-height: 500px; 
+  min-height: 700px; 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -41,7 +63,7 @@ background-image: url(Calculator.jpg);
 .simpleQuiz{
   background-image: url(SimpleQuiz.jpg);
   /* Set a specific height */
- min-height: 500px; 
+ min-height: 700px; 
  background-attachment: fixed;
  background-position: center;
   background-repeat: no-repeat;
@@ -52,7 +74,7 @@ background-image: url(Calculator.jpg);
 .TicTacToe{
   background-image: url(TickTackToe.jpg);
   /* Set a specific height */
- min-height: 500px; 
+ min-height: 700px; 
  background-attachment: fixed;
  background-position: center;
   background-repeat: no-repeat;
@@ -63,7 +85,7 @@ background-image: url(Calculator.jpg);
 .RockPaper{
 background-image: url(RockPaper.jpg);
 /* Set a specific height */
-  min-height: 600px; 
+  min-height: 700px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
