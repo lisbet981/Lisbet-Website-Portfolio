@@ -3,7 +3,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 98vh;
+    height: 98.5vh;
 }
 
 .navbar {
@@ -12,11 +12,13 @@ body {
     font-weight: 400;
     text-align: end;
 }
-
 .navbar a {
     text-decoration: none;
     color: black;
     padding: 9px 9px;
+}
+.navbar a:hover{
+    background-color: rgba(250, 250, 250, 0.582);
 }
 
 mark {
@@ -26,5 +28,23 @@ mark {
 }
 
 main{
-    background-color: azure;
+    background-color: #e0e4dc81;
+    width: 96%;
+    height: 93vh;
+    margin: auto;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-height: 50vh;
 }
+
+.LeftText{
+  padding: 20px;
+ font-family:'Aboreto';
+ font-size: 25px;
+ font-weight: 400;
+}
+
+/* tmr work on the text */

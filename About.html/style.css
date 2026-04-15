@@ -12,13 +12,14 @@ body {
     font-weight: 400;
     text-align: end;
 }
-
 .navbar a {
     text-decoration: none;
     color: black;
     padding: 9px 9px;
 }
-
+.navbar a:hover{
+    background-color: rgba(250, 250, 250, 0.582);
+}
 mark {
     background:rgba(250, 250, 250, 0.582);
     color:black;
