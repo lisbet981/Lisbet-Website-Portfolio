@@ -36,15 +36,47 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15%;
     min-height: 50vh;
 }
 
 .LeftText{
-  padding: 20px;
  font-family:'Aboreto';
- font-size: 25px;
  font-weight: 400;
+ text-align: left;
 }
 
-/* tmr work on the text */
+h1{
+    font-size: 65px;
+}
+
+.contact-container{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    text-align: left;
+}
+
+.FirstInput{
+    display: flex;
+    gap: 60px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.contact-input{
+  width: 100%;
+  padding: 10px;  
+  margin: 10px;
+  border-radius: 20px solid rgba(250, 250, 250, 0.705);
+}
+
+.contact-input-text{
+     width: 300px;
+  height: 150px;
+  resize: none;
+    
+}
